@@ -1,0 +1,17 @@
+.movie {
+  height: 100px;
+  border: 1px solid blue;
+  margin: 2px;
+}
+
+/* This was found on StackOverflow to make the footer stick to the bottom of the browser */
+footer {
+    background:#ddd;
+    border-top:solid 1px #666;
+    bottom:0;
+    height:15px;
+    padding:5px;
+    position:fixed;
+    width:100%;
+    z-index:1000;
+}
